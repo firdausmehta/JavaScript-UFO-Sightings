@@ -46,3 +46,15 @@ button.on("click", () => {
 	}
 		else if (response.filterData.length === 0 && ((response.filterCity.length !== 0 || response.filterDate.length !== 0))){
 			populate(filterCity) || populate(filterDate);
+	
+		}
+		else {
+			tbody.append("tr").append("td").text("No results found!"); 
+		}
+})
+
+resetbtn.on("click", () => {
+	tbody.html("");
+	populate(data)
+	console.log("Table reset")
+})
