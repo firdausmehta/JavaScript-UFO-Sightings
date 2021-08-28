@@ -1,9 +1,9 @@
 ## Overview:
 Write code using JavaScript, HTML, and CSS, and D3.js, that will create a table dynamically based upon a UFO sightings dataset. The code will allow users to filter the table data for specific values.
 
-- Problem: Automatic Table and Date Search where users can use multiple search catagories that is visually attracting and easy to use.
-- Organization: Uses HTML, CSS, JavaScript and D3.js to build the web page.
-- How to run: Run the HTML web page.
+## Dataset
+
+* [UFO Sightings Data](UFO-level-1/static/js/data.js)
 
 ## Automatic Table and Date Search
 
@@ -13,7 +13,5 @@ Write code using JavaScript, HTML, and CSS, and D3.js, that will create a table 
 
 * Used a date form in the HTML document and wrote JavaScript code that will listen for events and search through the `date/time` column to find rows that match user input.
 
-## Dataset
-
-* [UFO Sightings Data](UFO-level-1/static/js/data.js)
+![Capture](https://user-images.githubusercontent.com/80393628/131210164-fa5e7c18-917e-48bf-b837-75c1ecb85737.PNG)
 
