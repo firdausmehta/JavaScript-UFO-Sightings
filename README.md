@@ -15,5 +15,5 @@ Write code using JavaScript, HTML, and CSS, and D3.js, that will create a table 
 
 ## Dataset
 
-* [UFO Sightings Data](StarterCode/static/js/data.js)
+* [UFO Sightings Data](UFO-level-1/static/js/data.js)
 
